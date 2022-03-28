@@ -5,6 +5,8 @@ package dayExercises;
  * @Date 2022/3/21 9:20
  */
 
+import common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.HashSet;
 import java.util.Queue;
@@ -55,21 +57,4 @@ public class Question653 {
 
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
