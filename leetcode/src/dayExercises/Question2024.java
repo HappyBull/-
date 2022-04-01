@@ -49,7 +49,4 @@ public class Question2024 {
         return ans;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
