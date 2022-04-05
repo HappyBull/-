@@ -10,8 +10,8 @@ import java.util.List;
  */
 
 //307. 区域和检索 - 数组可修改
-    //暴力算法超时，官方题解三种答案全都看不懂
-    //埋了吧
+//暴力算法超时，官方题解三种答案全都看不懂
+//埋了吧
 public class Question307 {
     private int[] sum; // sum[i] 表示第 i 个块的元素和
     private int size; // 块的大小
@@ -32,7 +32,7 @@ public class Question307 {
         nums[index] = val;
     }
 
-//判断左和右是否在一块
+    //判断左和右是否在一块
     //在的话遍历这一块
     //不在的话遍历三块
     public int sumRange(int left, int right) {
