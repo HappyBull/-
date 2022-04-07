@@ -8,7 +8,7 @@ package dayExercises;
 public class Question796 {
     public boolean rotateString(String s, String goal) {
         //s+s包含了所有 s旋转的结果
-//        return s.length() == goal.length() && (s + s).contains(goal);
+        // return s.length() == goal.length() && (s + s).contains(goal);
         //暴力法
         int m = s.length(), n = goal.length();
         if (m != n) {
