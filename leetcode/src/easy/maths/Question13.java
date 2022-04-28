@@ -8,7 +8,7 @@ import java.util.Map;
  * @Date 2022/4/20 14:11
  */
 //罗马字母转整数
-public class Q13 {
+public class Question13 {
 
     public int romanToInt(String s) {
         Map<Character,Integer> roamn = new HashMap<>();

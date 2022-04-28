@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @Date 2022/4/14 19:17
  */
 //资产最大的客户
-public class Q1672 {
+public class Question1672 {
     public int maximumWealth(int[][] accounts) {
         int maxWealth = Integer.MIN_VALUE;
         for (int[] account : accounts) {
@@ -17,7 +17,7 @@ public class Q1672 {
     }
 
     public static void main(String[] args) {
-        Q1672 q = new Q1672();
+        Question1672 q = new Question1672();
         q.maximumWealth(new int[][]{{1,2,3}, {3, 2, 1}});
     }
 }
