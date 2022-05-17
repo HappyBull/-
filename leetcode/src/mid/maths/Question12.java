@@ -1,15 +1,12 @@
 package mid.maths;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author zouzh
  * @date 2022/4/10 21:16
  */
 
 //整数转罗马数字
-public class Q12 {
+public class Question12 {
 
     //模拟实际的转换过程，类似于贪心算法，每次都取最大的部分
     int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
