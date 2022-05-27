@@ -31,6 +31,7 @@ public class Question1823 {
     /**
      * 递归
      * f(n, k) = (k + f(n - 1, k) - 1) mod n + 1
+     *
      * @param args
      */
 //    public int findTheWinner(int n, int k) {

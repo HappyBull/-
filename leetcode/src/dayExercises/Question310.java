@@ -10,7 +10,7 @@ import java.util.List;
  */
 
 //最小高度树
-    //常用的解法有深搜和广搜，配合回溯法
+//常用的解法有深搜和广搜，配合回溯法
 public class Question310 {
 
     //这里使用深搜

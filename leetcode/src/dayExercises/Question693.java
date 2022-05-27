@@ -53,7 +53,7 @@ public class Question693 {
     //   011111111   n ^ (n>>1)
     //   100000000  a+1
     public static boolean hasAlternatingBits(int n) {
-        long a = n ^ (n>>1);
+        long a = n ^ (n >> 1);
         return (a & (a + 1)) == 0;
     }
 

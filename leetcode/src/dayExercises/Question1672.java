@@ -18,6 +18,6 @@ public class Question1672 {
 
     public static void main(String[] args) {
         Question1672 q = new Question1672();
-        q.maximumWealth(new int[][]{{1,2,3}, {3, 2, 1}});
+        q.maximumWealth(new int[][]{{1, 2, 3}, {3, 2, 1}});
     }
 }

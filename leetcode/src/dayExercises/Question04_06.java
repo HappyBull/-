@@ -20,17 +20,17 @@ public class Question04_06 {
         int target = p.val;
         TreeNode cur = root;
         TreeNode ans = null;
-        while (cur != null){
-            if (cur.val > target){
+        while (cur != null) {
+            if (cur.val > target) {
                 ans = cur;
                 cur = cur.left;
-            }
-            else{
+            } else {
                 cur = cur.right;
             }
         }
         return ans;
     }
+
     public static void main(String[] args) {
 
     }

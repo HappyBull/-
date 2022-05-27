@@ -20,22 +20,22 @@ public class Question2038 {
     根据贪心策略，只要看A和B每次删除一个的情况下，谁需要更多的次数删完谁就输
      */
     public static boolean winnerOfGame(String colors) {
-        String [] a = colors.split("B");
+        String[] a = colors.split("B");
         int numA = 0;
         int numB = 0;
         for (int i = 0; i < a.length; i++) {
             if (a[i].length() > 2) {
-                numA+=(a[i].length()-2);
+                numA += (a[i].length() - 2);
             }
         }
 
-        String [] b = colors.split("A");
+        String[] b = colors.split("A");
         for (int i = 0; i < b.length; i++) {
             if (b[i].length() > 2) {
-                numB+=(b[i].length()-2);
+                numB += (b[i].length() - 2);
             }
         }
-        if (numA>numB) {
+        if (numA > numB) {
             return true;
         }
 

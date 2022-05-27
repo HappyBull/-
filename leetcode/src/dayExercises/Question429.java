@@ -12,7 +12,7 @@ import java.util.Queue;
  * @date 2022/4/8 23:11
  */
 //N叉树层序遍历
-    //广度优先，一个队列搞定
+//广度优先，一个队列搞定
 public class Question429 {
     public List<List<Integer>> levelOrder(Node root) {
         if (root == null) {

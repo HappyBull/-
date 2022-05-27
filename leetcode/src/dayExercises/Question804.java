@@ -14,18 +14,20 @@ public class Question804 {
             "....", "..", ".---", "-.-", ".-..", "--", "-.",
             "---", ".--.", "--.-", ".-.", "...", "-", "..-",
             "...-", ".--", "-..-", "-.--", "--.."};
+
     public int uniqueMorseRepresentations(String[] words) {
         Set<String> result = new HashSet<String>();
         for (String word : words) {
             StringBuilder code = new StringBuilder();
             for (int i = 0; i < word.length(); i++) {
                 char c = word.charAt(i);
-                code.append(MORSE[c-'a']);
+                code.append(MORSE[c - 'a']);
             }
             result.add(code.toString());
         }
         return result.size();
     }
+
     public static void main(String[] args) {
 
     }

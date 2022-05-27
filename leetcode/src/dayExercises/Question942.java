@@ -26,6 +26,7 @@ public class Question942 {
         result[s.length()] = min;
         return result;
     }
+
     public static void main(String[] args) {
 
     }

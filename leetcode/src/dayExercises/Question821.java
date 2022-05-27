@@ -63,6 +63,6 @@ public class Question821 {
     }
 
     public static void main(String[] args) {
-        shortestToChar("loveleetcode",'e');
+        shortestToChar("loveleetcode", 'e');
     }
 }
