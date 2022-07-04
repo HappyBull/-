@@ -5,8 +5,8 @@ package common;
  * @date 2022/2/23 17:07
  */
 
-public class ListNode {
+public class Node {
     public int val;
-    public ListNode next;
-    public ListNode(int x) { val = x; }
+    public Node next;
+    public Node(int x) { val = x; }
 }

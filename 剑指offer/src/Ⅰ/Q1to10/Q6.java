@@ -1,6 +1,6 @@
-package Q1to10;
+package Ⅰ.Q1to10;
 
-import common.ListNode;
+import common.Node;
 
 
 /**
@@ -9,7 +9,7 @@ import common.ListNode;
  */
 //输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回
 public class Q6 {
-    public static int[] reversePrint(ListNode head) {
+    public static int[] reversePrint(Node head) {
 //        Stack<Integer> temp = new Stack<>();
 //        while (head != null) {
 //            temp.push(head.val);
@@ -26,7 +26,7 @@ public class Q6 {
         //第二次遍历，倒序将数据插入数组
         //更小的空间复杂度
 
-        ListNode node = head;
+        Node node = head;
         int count = 0;
         while (node != null) {
             ++count;
@@ -43,9 +43,9 @@ public class Q6 {
     }
 
     public static void main(String[] args) {
-        ListNode a = new ListNode(1);
-        ListNode b = new ListNode(3);
-        ListNode c = new ListNode(2);
+        Node a = new Node(1);
+        Node b = new Node(3);
+        Node c = new Node(2);
         a.next = b;
         b.next = c;
         System.out.println(reversePrint(a));
