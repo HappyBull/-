@@ -30,7 +30,10 @@ public class Question1200 {
     }
 
     public static void main(String[] args) {
-        Question1200 question1200 = new Question1200();
-        question1200.minimumAbsDifference(new int[]{40, 11, 26, 27, -20});
+        String sql = "  delete * from; 123";
+        System.out.println(sql.substring(0,5));
+        System.out.println(sql.split("\\;")[0]);
+        System.out.println(sql.split("\\;")[1]);
+        System.out.println(sql.trim().substring(0,6));
     }
 }
