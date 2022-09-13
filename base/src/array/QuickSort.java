@@ -19,8 +19,8 @@ public class QuickSort extends BaseSort {
             return nums;
         }
         //方法入口
-        int divPoint = doublePointerSwap(nums,start,end);
-        quickArray(nums,start,divPoint-1);
+        int divPoint = doublePointerSwap(nums, start, end);
+        quickArray(nums, start, divPoint - 1);
         return nums;
     }
 
@@ -29,11 +29,11 @@ public class QuickSort extends BaseSort {
      * 思路：
      * 记录分界值 pivot，创建左右指针（记录下标）。
      * （分界值选择方式有：首元素，随机选取，三数取中法）
-     *
+     * <p>
      * 首先从右向左找出比pivot小的数据，
      * 然后从左向右找出比pivot大的数据，
      * 左右指针数据交换，进入下次循环。
-     *
+     * <p>
      * 结束循环后将当前指针数据与分界值互换，
      * 返回当前指针下标（即分界值下标）
      */
@@ -55,7 +55,7 @@ public class QuickSort extends BaseSort {
             }
             // 没有过界则交换
             if (leftPoint < rightPoint) {
-                swap(arr,leftPoint,rightPoint);
+                swap(arr, leftPoint, rightPoint);
             }
         }
         // 最终将分界值与当前指针数据交换
@@ -71,12 +71,12 @@ public class QuickSort extends BaseSort {
      * 创建左右指针。
      * 记录左指针数据为分界值 pivot，
      * 此时左指针视为"坑"，里面的数据可以被覆盖。
-     *
+     * <p>
      * 首先从右向左找出比pivot小的数据，
      * 找到后立即放入左边坑中，当前位置变为新的"坑"，
      * 然后从左向右找出比pivot大的数据，
      * 找到后立即放入右边坑中，当前位置变为新的"坑"，
-     *
+     * <p>
      * 结束循环后将最开始存储的分界值放入当前的"坑"中，
      * 返回当前"坑"下标（即分界值下标）
      */
